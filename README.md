@@ -90,41 +90,40 @@ Change this to 3, 4, or however many you’d like.
 Below is a sample run showing how the script might behave:
 
    ```pgsql
-   [INFO] Detecting your current kernel...
-         Currently running kernel: 5.15.0-131-generic
-   
-   [INFO] Gathering installed kernel packages...
-   [INFO] All kernel versions found (oldest -> newest):
-         5.15.0-127-generic
-         5.15.0-128-generic
-         5.15.0-129-generic
-         5.15.0-130-generic
-         5.15.0-131-generic
-   
-   [INFO] Keeping the newest 2 kernel(s) + the running kernel.
-   [INFO] Final keep list (versions):
-         5.15.0-130-generic
-         5.15.0-131-generic
-   
-   [REMOVE] linux-image-5.15.0-127-generic
-   [REMOVE] linux-image-5.15.0-128-generic
-   [REMOVE] linux-image-5.15.0-129-generic
-   
-   [INFO] Running autoremove for any unused dependencies...
-   [INFO] Autoremove completed.
-   
-   [INFO] Checking for packages in 'rc' (removed/config) state...
-   [INFO] Purging leftover config files for these packages:
-         linux-image-5.15.0-127-generic
-         linux-image-5.15.0-128-generic
-         linux-image-5.15.0-129-generic
-   
-   [INFO] Final check of installed kernel packages:
-   ii  linux-image-5.15.0-130-generic  ...
-   ii  linux-image-5.15.0-131-generic  ...
-   
-   [INFO] Script complete. Current kernel remains: 5.15.0-131-generic
-   pgsql```
+      [INFO] Detecting your current kernel...
+            Currently running kernel: 5.15.0-131-generic
+      
+      [INFO] Gathering installed kernel packages...
+      [INFO] All kernel versions found (oldest -> newest):
+            5.15.0-127-generic
+            5.15.0-128-generic
+            5.15.0-129-generic
+            5.15.0-130-generic
+            5.15.0-131-generic
+      
+      [INFO] Keeping the newest 2 kernel(s) + the running kernel.
+      [INFO] Final keep list (versions):
+            5.15.0-130-generic
+            5.15.0-131-generic
+      
+      [REMOVE] linux-image-5.15.0-127-generic
+      [REMOVE] linux-image-5.15.0-128-generic
+      [REMOVE] linux-image-5.15.0-129-generic
+      
+      [INFO] Running autoremove for any unused dependencies...
+      [INFO] Autoremove completed.
+      
+      [INFO] Checking for packages in 'rc' (removed/config) state...
+      [INFO] Purging leftover config files for these packages:
+            linux-image-5.15.0-127-generic
+            linux-image-5.15.0-128-generic
+            linux-image-5.15.0-129-generic
+      
+      [INFO] Final check of installed kernel packages:
+      ii  linux-image-5.15.0-130-generic  ...
+      ii  linux-image-5.15.0-131-generic  ...
+      
+      [INFO] Script complete. Current kernel remains: 5.15.0-131-generic
 
 ## Contributing
 
