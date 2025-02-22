@@ -76,8 +76,8 @@ Purge config files for removed kernels.
 ## Configuration
 Inside the script, there’s a variable called `KEEP`. By default, it’s set to `2`. This means:
 
-The script keeps the **newest 2 kernels plus the currently running kernel.**
-If you want to keep more (or fewer), open the script and modify:
+- The script keeps the **newest 2 kernels plus the currently running kernel.**
+- If you want to keep more (or fewer), open the script and modify:
    ```bash
    KEEP=2
 
