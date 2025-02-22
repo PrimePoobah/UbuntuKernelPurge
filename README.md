@@ -87,7 +87,6 @@ Change this to 3, 4, or however many you’d like.
 Below is a sample run showing how the script might behave:
 
    ```sql
-   
    [INFO] Detecting your current kernel...
          Currently running kernel: 5.15.0-131-generic
    
