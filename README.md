@@ -58,12 +58,13 @@ It helps keep your Ubuntu system clean, freeing up disk space consumed by old ke
 1. Download the script (e.g., `delete_old_kernels.sh`) to your local system.  
 2. Make the script executable:  
    ```bash
-   chmod +x delete_old_kernels_keep_multiple_with_purge.sh
+   chmod +x delete_old_kernels.sh.sh
 
 ## Usage
+
 1. **Run the script** with `sudo`:
    ```bash
-   sudo ./delete_old_kernels_keep_multiple_with_purge.sh
+   sudo ./delete_old_kernels.sh
 
 2. **Follow any on-screen messages**. The script will:
 Identify kernels to keep vs. remove.
@@ -74,6 +75,7 @@ Purge config files for removed kernels.
 **Tip: Always confirm the current kernel is correct before removing old kernels.**
 
 ## Configuration
+
 Inside the script, there’s a variable called `KEEP`. By default, it’s set to `2`. This means:
 
 - The script keeps the **newest 2 kernels plus the currently running kernel.**
@@ -84,6 +86,7 @@ Inside the script, there’s a variable called `KEEP`. By default, it’s set to
 Change this to 3, 4, or however many you’d like.
 
 ## Example Output
+
 Below is a sample run showing how the script might behave:
 
    ```sql
@@ -123,6 +126,7 @@ Below is a sample run showing how the script might behave:
    [INFO] Script complete. Current kernel remains: 5.15.0-131-generic
 
 ## Contributing
+
 1. Fork the repository.
 2. Create a feature branch:
    ```bash
