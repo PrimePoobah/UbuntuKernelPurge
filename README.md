@@ -15,9 +15,8 @@ A Bash script that removes older Ubuntu kernels while keeping your current kerne
 4. [Installation](#installation)  
 5. [Usage](#usage)  
 6. [Configuration](#configuration)  
-7. [Example Output](#example-output)  
-8. [Contributing](#contributing)  
-9. [License](#license)  
+7. [Contributing](#contributing)  
+8. [License](#license)  
 
 ---
 
