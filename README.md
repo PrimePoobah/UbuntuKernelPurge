@@ -124,6 +124,7 @@ Below is a sample run showing how the script might behave:
    ii  linux-image-5.15.0-131-generic  ...
    
    [INFO] Script complete. Current kernel remains: 5.15.0-131-generic
+   pgsql```
 
 ## Contributing
 
